@@ -3,3 +3,4 @@ name = "deepdrone"
 version = "0.1.0"
 description = "Control drones with natural language"
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
